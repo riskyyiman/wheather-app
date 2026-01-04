@@ -23,33 +23,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>{children}</body>
     </html>
   );
 }
-
-// useEffect(() => {
-//     // 1. Fungsi untuk mendapatkan lokasi user
-//     const getUserLocation = () => {
-//       if (navigator.geolocation) {
-//         navigator.geolocation.getCurrentPosition(
-//           (position) => {
-//             // Jika user mengizinkan, ambil lat & long
-//             const { latitude, longitude } = position.coords;
-//             fetchWeather(`${latitude},${longitude}`);
-//           },
-//           (error) => {
-//             // Jika user menolak atau error, fallback ke lokasi default (misal: Madrid)
-//             console.warn("Akses lokasi ditolak, menggunakan lokasi default.");
-//             fetchWeather('Madrid');
-//           }
-//         );
-//       } else {
-//         // Browser tidak mendukung Geolocation
-//         fetchWeather('Madrid');
-//       }
-//     };
-
-//     getUserLocation();
-//   }, []); // Jalankan sekali saat mount
