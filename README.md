@@ -2,8 +2,6 @@
 
 ![Banner Aplikasi](./public/screenshots/ly.png)
 
-*(Catatan: Ganti gambar di atas dengan screenshot aplikasi Anda setelah di-push, atau hapus baris ini jika belum ada)*
-
 Aplikasi cuaca modern dan responsif yang dibangun menggunakan **Next.js 14 (App Router)** dan **Tailwind CSS**.
 
 Proyek ini mengimplementasikan desain **Bento Grid** yang sedang tren, menampilkan data cuaca real-time dari API, dan menggunakan logika dinamis untuk mengubah ikon cuaca 3D berdasarkan kondisi aktual.
