@@ -1,7 +1,5 @@
 # 🌦️ Modern Bento Weather App
 
-![Uploading image.png…]()
-
 *(Catatan: Ganti gambar di atas dengan screenshot aplikasi Anda setelah di-push, atau hapus baris ini jika belum ada)*
 
 Aplikasi cuaca modern dan responsif yang dibangun menggunakan **Next.js 14 (App Router)** dan **Tailwind CSS**.
